@@ -25,3 +25,29 @@ considerations
 
 Implementation
 --------------
+
+- simple ruby gem
+- use octokit ruby tool for github api integration
+- use some sort of testing framework... don't know what the cool kids are using
+these days
+  - cucumber?
+  - ruby UnitTests?
+- probot for CI automation
+
+
+TODO
+----
+- [ ] build basic hello world gem
+- [ ] scan octokit docs
+  - [ ] library methods: get/put ticket info
+  - [ ] authentication
+- [ ] research ruby testing frameworks
+  - [ ] pick one
+  - [ ] write tests
+- [ ] build out report generator
+  - [ ] get ticket info
+  - [ ] write it into markdown format
+  - [ ] interactive cli tool
+- [ ] scan probot docs
+  - [ ] how to automatically add to github repo pull request
+  - [ ] how to integrate with existing tests
